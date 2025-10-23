@@ -157,7 +157,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-**Luiz FX**
+**Luiz Felipe de Oliveira**
 - GitHub: [@luizfxdev](https://github.com/luizfxdev)
 - LinkedIn: [in/luizfxdev](https://www.linkedin.com/in/luizfxdev)
 - Portfólio: [luizfxdev.com.br](https://luizfxdev.com.br)

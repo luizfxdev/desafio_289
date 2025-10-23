@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardiões da Galáxia - Calculadora de Saltos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video id="background-video" autoplay loop muted playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <h1 class="title">CALCULADORA DE SALTOS</h1>
+      <p class="subtitle">Os Guardiões da Galáxia precisam da sua ajuda!</p>
+
+      <!-- Seção de Input -->
+      <div class="input-section">
+        <label for="pontos-input" class="input-label">Pontos de Salto (separados por vírgula):</label>
+        <input type="text" id="pontos-input" class="input-field" placeholder="Ex: 0, 10, 5, 20, 10, 5" tabindex="1" />
+
+        <label for="energia-input" class="input-label">Energia Inicial:</label>
+        <input type="number" id="energia-input" class="input-field" placeholder="Ex: 25" tabindex="2" />
+      </div>
+
+      <!-- Seção de Botões -->
+      <div class="button-section">
+        <button class="btn glitch btn-calcular" id="btn-calcular" tabindex="3">
+          <span>CALCULAR</span>
+        </button>
+        <button class="btn glitch btn-retornar" id="btn-retornar" tabindex="4">
+          <span>RETORNAR</span>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="resultado-section" id="resultado-section">
+        <h2 class="resultado-title">📊 Resultado da Missão</h2>
+        <div class="resultado-content" id="resultado-content">
+          <!-- O resultado será inserido aqui via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
